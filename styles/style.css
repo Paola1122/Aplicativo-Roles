@@ -1,0 +1,118 @@
+*{
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 20px;
+	text-align: center;
+}
+h1{
+	color: #00AFAF;
+}
+h3{
+	color: #00AFAF;
+	margin: 20px 0;
+}
+.formLogin, .FormNewUser{
+	background: #eeeeee;
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	max-width: 720px;
+	width: 100%;
+}
+.formLogin > form, .FormNewUser > form{
+	padding: 20px;
+}
+.FormNewUser > form input, .FormNewUser > form select{
+	text-align: center;
+	font-size: 15px;
+	margin: 10px 0;
+	padding: 10px;
+	height: 20px;
+	width: 90%;
+}
+.FormNewUser > form select{
+    height: 45px;
+	width: 94%;
+
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.formLogin > form input{
+	text-align: center;
+	font-size: 15px;
+	margin: 10px 0;
+	padding: 10px;
+	height: 20px;
+	width: 90%;
+}
+.formLogin > form input:focus{
+	border: 2px solid #00AFAF;
+}
+input[type="submit"], input[type="button"], a{
+	cursor: pointer;
+	font-size: 20px !important;
+	height: 50px !important;
+	margin-top: 20px;
+	padding: 10px;
+}
+input[type="submit"]:hover, input[type="button"]:hover, a:hover{
+	background: #00AFAF;
+	color: #ffffff;
+}
+.FormNewUser > form input[type="submit"]{
+	margin-bottom: 20px;
+}
+.tableUserRols{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+table{
+	margin: 0 auto;
+	text-align: left;
+}
+table tr:nth-child(2n+1){
+	background: #C9FAF4;
+}
+table tr:first-child{
+	background: #00AFAF;
+	color: #ffffff;
+	text-align: center;
+}
+table tr td{
+	margin: 5px 0;
+	padding: 15px 30px;
+}
+#editRol{
+    border: 1px solid #00AFAF;
+	display: block;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+}
+#editRol:hover{
+	background: #00AFAF;
+	color: #ffffff;
+	cursor: pointer;
+}
+input[type="radio"]{
+    height: 20px;
+	width: 20px;
+}
+a{
+	background: #eee8e8;
+    border: 1px solid #000000;
+    color: #000000;
+    text-decoration: none;
+}
+.logout{
+	display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+	max-width: 50px;
+    max-height: 30px;
+}
